@@ -1,0 +1,68 @@
+.blogcontainer{
+    width: 70%;
+}
+
+.blogHeader{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.postTitle{
+    letter-spacing: 0.3px;
+      text-transform: capitalize;   
+    font-size: 30px;
+     margin:0px;
+     font-weight: 600;
+     font-family: 'Times New Roman', Times, serif;
+
+}
+
+.categorie{
+    display: block;
+    font-size:20px ;
+    padding: 10px 0 ;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.postedBy{
+  font-size: 15px;
+  font-style: italic;
+  padding: 10px 0;
+  display: block;
+  color: #6c6c6c;
+}
+
+.postimagecontainer{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.imageposted{
+    width: 100%;
+}
+
+
+.postcontent{
+    margin: 20px;
+
+}
+
+
+.postcontent h3 {
+    font-weight: 600;
+    color: #333;
+    font-size: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.postcontent p {
+    color: #6c6c6c;
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 14x;
+}

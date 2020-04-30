@@ -24,6 +24,31 @@
     padding: 0 10px;
 }
 
-.search {
+.search{
+    padding-right: 20px;
+}
+.search form {
     display:flex;
+}
+
+.searchInput  {
+   width: 0;
+   border: 0;
+   transition: width o.1s ease-in;
+}
+
+.searchInput:focus {
+    outline: none ;
+}
+
+.searchInputactive {
+    
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 60px;
+
+}
+
+.searchIcon{
+    cursor: pointer;
 }

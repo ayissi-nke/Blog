@@ -1,0 +1,84 @@
+
+  .sidebarcontainer{
+      width: 26%;
+  }
+.cardheader{
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 10px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #333;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profileimage{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.profileimage img {
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+
+.biographie{
+    padding-bottom: 10px;
+}
+
+.biographie p {
+    font-size: 13px;
+    color: #6c6c6c;
+    font-weight: 300;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.6px;
+    text-align: center;
+    
+    
+
+}
+
+.title{
+    text-align: center;
+    font-size: 400;
+    display: block;
+    font-size: 22px;
+    color: #333;
+    padding: 15px 0;    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recentposts{
+    padding: 20px 0;
+}
+
+.recentpost{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px; 
+    padding-left: 10px;
+}
+
+.recentpost h3 {
+    font-weight: 600;
+    color: #6c6c6c;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: serif;
+    
+}
+
+.recentpost span {
+    font-size:15px ;
+    font-weight: 400;
+    color:#6c6c6c;
+    font-family: serif;
+    display: block;
+}

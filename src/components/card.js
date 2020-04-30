@@ -13,7 +13,7 @@ export class card extends Component {
     
     render() {
         return (
-            <div className="card">
+            <div className="card" style={{width:this.props.width ?this.props.width : '100%'}} {...this.props}>
                 {this.props.children}
             </div>
         )
