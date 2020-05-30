@@ -1,0 +1,75 @@
+
+.galleryPost{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+   
+    
+    
+
+.mainimage {
+    
+   height: 100%;
+   box-sizing: border-box;
+    
+  
+    
+    
+}
+
+.mainimage img{
+
+    max-width: 100%; 
+
+    
+
+}
+
+.sideImageWraper div {
+    width: 100%;
+    
+}
+
+.sideImageWraper div img{
+    
+
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    
+}
+
+.homeContainer{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px;
+    
+}
+
+
+
+
+.post{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+.postimage{
+    height: 450px;
+    overflow: hidden;
+    width: 100%;
+   
+ }
+ .postimage img {
+     max-height: 100%;
+     width: 100%;
+     object-fit: cover;
+ } 
+
+ .first{
+    
+ }

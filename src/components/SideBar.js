@@ -19,7 +19,7 @@ import { NavLink } from 'react-router-dom/cjs/react-router-dom.min'
      
         setPosts(posts); 
         
-     },posts);
+     },[posts]);
 
         return (
             <div className="sidebarcontainer">
@@ -50,7 +50,7 @@ import { NavLink } from 'react-router-dom/cjs/react-router-dom.min'
 
                             {   posts.map(post =>{
                                     return(
-                                        <NavLink to={`/post/${post.id}`}> 
+                                        <NavLink key={post.id} to={`/post/${post.id}`}> 
                                             <div className="recentpost">
                                                 <h3> {post.blogTitle} </h3>
                                                 <span> {post.postedOn} </span>
